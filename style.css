@@ -18,18 +18,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Main font */
     line-height: 1.6;       /* Space between lines of text */
     color: #242424;         /* Secondary color for text */
-    background: linear-gradient(to bottom, #dde8e3 0%, #c8d9d1 100%); /* Primary foreground gradient background */
+    background: linear-gradient(to bottom, #0875ab 0%, #0c6fa4 100%); /* Primary foreground gradient background */
 }
 
 /* ============================================== */
 /* NAVIGATION BAR - Sticky header at the top     */
 /* ============================================== */
 nav {
-    background: linear-gradient(135deg, #242424 0%, #1a1a1a 100%); /* Secondary dark gradient background */
+    background: linear-gradient(135deg, #1b7d9b 0%, #1a6296 100%); /* Secondary dark gradient background */
     padding: 1.2rem 0;         /* Top and bottom spacing */
     position: sticky;          /* Stays at top when scrolling */
     top: 0;                    /* Position at very top */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    box-shadow: 0 4px 20px rgba(9, 9, 9, 0.974); /* Enhanced shadow */
     z-index: 100;              /* Keeps nav above other content */
 }
 
@@ -43,7 +43,7 @@ nav {
 }
 
 nav h2 {
-    color: white;              /* White text for logo */
+    color: rgba(16, 16, 16, 0.911);              /* White text for logo */
     font-size: 1.5rem;         /* Size of logo text */
 }
 
@@ -54,14 +54,14 @@ nav ul {
 }
 
 nav a {
-    color: white;              /* White text for links */
+    color: rgb(8, 139, 200);              /* White text for links */
     text-decoration: none;     /* Removes underline */
     font-weight: 500;          /* Medium bold text */
     transition: color 0.3s ease; /* Smooth color change on hover */
 }
 
 nav a:hover {
-    color: #006239;            /* Primary green color when hovering */
+    color: #04a0eeec;            /* Primary green color when hovering */
     background-color: #fafafa; /* Secondary foreground background */
     padding: 5px 10px;         /* Add padding on hover */
     border-radius: 5px;        /* Rounded corners */
@@ -99,9 +99,9 @@ section h2::after {
     transform: translateX(-50%); /* Centers the line */
     width: 120px;              /* Wider underline */
     height: 5px;               /* Thicker line */
-    background: #006239;       /* Primary green color */
+    background: #0c0c0cf7;       /* Primary green color */
     border-radius: 3px;        /* Rounded edges */
-    box-shadow: 0 3px 10px rgba(0, 98, 57, 0.3); /* Green shadow */
+    box-shadow: 0 3px 10px #060a08f5; /* Green shadow */
 }
 
 /* ============================================== */
@@ -110,27 +110,27 @@ section h2::after {
 .hero {
     text-align: center;        /* Centers all text */
     padding: 120px 20px;       /* Large top/bottom spacing */
-    background: linear-gradient(135deg, #006239 0%, #004d2d 100%); /* Primary green gradient */
+    background: linear-gradient(135deg, #0f0f0ffc 0%, hsl(155, 75%, 3%) 100%); /* Primary green gradient */
     /* To use an image instead, uncomment below and replace 'your-image.jpg' with your image path: */
     /* background-image: url('your-image.jpg'); */
     /* background-size: cover; */
     /* background-position: center; */
-    color: #fafafa;            /* Secondary foreground (light text) */
-    box-shadow: 0 15px 50px rgba(0, 98, 57, 0.4); /* Green glow */
+    color: #090909f3;            /* Secondary foreground (light text) */
+    box-shadow: 0 15px 50px rgba(1, 5, 3, 0.958); /* Green glow */
     border-radius: 20px;       /* Rounded corners */
     margin-bottom: 30px;       /* Space below hero */
 }
 
 .hero h1 {
     font-size: 3.5rem;         /* Very large name text */
-    color: #fafafa;            /* Secondary foreground (light color) */
+    color: #f6f3f3fa;            /* Secondary foreground (light color) */
     margin-bottom: 15px;       /* Space below name */
     font-weight: 700;          /* Extra bold */
 }
 
 .hero p {
     font-size: 1.3rem;         /* Medium-large tagline text */
-    color: #dde8e3;            /* Primary foreground color */
+    color: #f1f4f1f5;            /* Primary foreground color */
     margin-bottom: 35px;       /* Space below tagline */
 }
 
@@ -139,8 +139,8 @@ section h2::after {
 /* ============================================== */
 .btn {
     display: inline-block;     /* Makes it a block element but inline */
-    background-color: #242424; /* Secondary dark background */
-    color: #fafafa;            /* Secondary foreground (light text) */
+    background-color: #0676f7; /* Secondary dark background */
+    color: #070000;            /* Secondary foreground (light text) */
     padding: 15px 40px;        /* Top/bottom and left/right spacing */
     text-decoration: none;     /* Removes underline */
     border-radius: 50px;       /* Makes it pill-shaped */
@@ -153,14 +153,14 @@ section h2::after {
 
 .btn:hover {
     transform: translateY(-3px) scale(1.05); /* Moves up and scales slightly */
-    box-shadow: 0 15px 35px rgba(0, 98, 57, 0.5); /* Green glow on hover */
-    background-color: #006239; /* Primary green on hover */
+    box-shadow: 0 15px 35px rgba(18, 18, 18, 0.5); /* Green glow on hover */
+    background-color: #0057ecd4; /* Primary green on hover */
 }
 
 .btn-secondary {
     background-color: transparent; /* Transparent background */
-    color: #fafafa;            /* Secondary foreground (light text) */
-    border: 2px solid #fafafa; /* Light border */
+    color: #0d70c1;            /* Secondary foreground (light text) */
+    border: 2px solid #0e65de; /* Light border */
     backdrop-filter: blur(10px); /* Frosted glass effect */
 }
 
