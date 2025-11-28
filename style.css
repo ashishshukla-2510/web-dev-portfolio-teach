@@ -17,19 +17,19 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Main font */
     line-height: 1.6;       /* Space between lines of text */
-    color: #242424;         /* Secondary color for text */
-    background: linear-gradient(to bottom, #0875ab 0%, #0c6fa4 100%); /* Primary foreground gradient background */
+    color: #090909;         /* Secondary color for text */
+    background: linear-gradient(to bottom, #028dd2 0%, #018cd6 100%); /* Primary foreground gradient background */
 }
 
 /* ============================================== */
 /* NAVIGATION BAR - Sticky header at the top     */
 /* ============================================== */
 nav {
-    background: linear-gradient(135deg, #1b7d9b 0%, #1a6296 100%); /* Secondary dark gradient background */
+    background: linear-gradient(135deg, #0385db 0%, #019ed7 100%); /* Secondary dark gradient background */
     padding: 1.2rem 0;         /* Top and bottom spacing */
     position: sticky;          /* Stays at top when scrolling */
     top: 0;                    /* Position at very top */
-    box-shadow: 0 4px 20px rgba(9, 9, 9, 0.974); /* Enhanced shadow */
+    box-shadow: 0 4px 20px rgba(10, 10, 10, 0.99); /* Enhanced shadow */
     z-index: 100;              /* Keeps nav above other content */
 }
 
@@ -43,7 +43,7 @@ nav {
 }
 
 nav h2 {
-    color: rgba(16, 16, 16, 0.911);              /* White text for logo */
+    color: rgba(6, 6, 6, 0.996);              /* White text for logo */
     font-size: 1.5rem;         /* Size of logo text */
 }
 
@@ -54,15 +54,15 @@ nav ul {
 }
 
 nav a {
-    color: rgb(8, 139, 200);              /* White text for links */
+    color: rgb(4, 4, 4);              /* White text for links */
     text-decoration: none;     /* Removes underline */
     font-weight: 500;          /* Medium bold text */
     transition: color 0.3s ease; /* Smooth color change on hover */
 }
 
 nav a:hover {
-    color: #04a0eeec;            /* Primary green color when hovering */
-    background-color: #fafafa; /* Secondary foreground background */
+    color: #070707ec;            /* Primary green color when hovering */
+    background-color: #0c0c0c; /* Secondary foreground background */
     padding: 5px 10px;         /* Add padding on hover */
     border-radius: 5px;        /* Rounded corners */
     transition: all 0.3s ease; /* Smooth transition */
@@ -75,16 +75,16 @@ section {
     max-width: 1200px;         /* Maximum width */
     margin: 0 auto;            /* Centers the section */
     padding: 80px 40px;        /* Top/bottom and left/right spacing */
-    background-color: #fafafa; /* Secondary foreground (light background) */
+    background-color: #030303; /* Secondary foreground (light background) */
     border-radius: 20px;       /* Rounded corners */
     margin-bottom: 30px;       /* Space between sections */
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12); /* Depth shadow */
+    box-shadow: 0 10px 40px rgba(4, 4, 4, 0.985); /* Depth shadow */
 }
 
 section h2 {
     font-size: 2.5rem;         /* Large heading size */
     margin-bottom: 50px;       /* Space below heading */
-    color: #242424;            /* Secondary dark color */
+    color: #fdf9f9;            /* Secondary dark color */
     text-align: center;        /* Centers the heading */
     position: relative;        /* Needed for the underline effect */
     padding-bottom: 20px;      /* Space for underline */
@@ -99,7 +99,7 @@ section h2::after {
     transform: translateX(-50%); /* Centers the line */
     width: 120px;              /* Wider underline */
     height: 5px;               /* Thicker line */
-    background: #0c0c0cf7;       /* Primary green color */
+    background: #ffa202fe;       /* Primary green color */
     border-radius: 3px;        /* Rounded edges */
     box-shadow: 0 3px 10px #060a08f5; /* Green shadow */
 }
@@ -139,8 +139,8 @@ section h2::after {
 /* ============================================== */
 .btn {
     display: inline-block;     /* Makes it a block element but inline */
-    background-color: #0676f7; /* Secondary dark background */
-    color: #070000;            /* Secondary foreground (light text) */
+    background-color: #27272700; /* Secondary dark background */
+    color: #0358d6;            /* Secondary foreground (light text) */
     padding: 15px 40px;        /* Top/bottom and left/right spacing */
     text-decoration: none;     /* Removes underline */
     border-radius: 50px;       /* Makes it pill-shaped */
@@ -153,21 +153,21 @@ section h2::after {
 
 .btn:hover {
     transform: translateY(-3px) scale(1.05); /* Moves up and scales slightly */
-    box-shadow: 0 15px 35px rgba(18, 18, 18, 0.5); /* Green glow on hover */
-    background-color: #0057ecd4; /* Primary green on hover */
+    box-shadow: 0 15px 35px rgba(6, 6, 6, 0.997); /* Green glow on hover */
+    background-color: #018dddfb; /* Primary green on hover */
 }
 
 .btn-secondary {
     background-color: transparent; /* Transparent background */
-    color: #0d70c1;            /* Secondary foreground (light text) */
-    border: 2px solid #0e65de; /* Light border */
+    color: #0243dbfa;            /* Secondary foreground (light text) */
+    border: 2px solid #09090903; /* Light border */
     backdrop-filter: blur(10px); /* Frosted glass effect */
 }
 
 .btn-secondary:hover {
-    background-color: #fafafa; /* Light background on hover */
-    border-color: #fafafa;     /* Light border */
-    color: #006239;            /* Primary green text on hover */
+    background-color: #047bd1; /* Light background on hover */
+    border-color: #0a0a0a;     /* Light border */
+    color: #f9fcfd;            /* Primary green text on hover */
 }
 
 /* ============================================== */
@@ -175,8 +175,8 @@ section h2::after {
 /* ============================================== */
 #about {
     text-align: center;        /* Centers the text */
-    background-color: #fafafa; /* Secondary foreground (light background) */
-    border-left: 5px solid #006239; /* Primary green accent border */
+    background-color: #090909; /* Secondary foreground (light background) */
+    border-left: 5px solid #050505; /* Primary green accent border */
 }
 
 #about p {
@@ -184,15 +184,15 @@ section h2::after {
     margin: 0 auto;            /* Centers the paragraph */
     font-size: 1.15rem;        /* Slightly larger text */
     line-height: 1.8;          /* More space between lines */
-    color: #242424;            /* Secondary dark text */
+    color: #fcfafa;            /* Secondary dark text */
 }
 
 /* ============================================== */
 /* SKILLS SECTION                                 */
 /* ============================================== */
 #skills {
-    background: linear-gradient(135deg, #dde8e3 0%, #cfddd5 100%); /* Primary foreground gradient */
-    border-left: 5px solid #006239; /* Primary green accent border */
+    background: linear-gradient(135deg, #050505 0%, #070707 100%); /* Primary foreground gradient */
+    border-left: 5px solid #050505; /* Primary green accent border */
 }
 
 .skills-container {
@@ -203,22 +203,22 @@ section h2::after {
 }
 
 .skill {
-    background-color: #006239; /* Primary green background */
-    color: #fafafa;            /* Secondary foreground (light text) */
+    background-color: #0379d9; /* Primary green background */
+    color: #070707;            /* Secondary foreground (light text) */
     padding: 12px 28px;        /* Top/bottom and left/right spacing */
     border-radius: 50px;       /* Pill-shaped badges */
     font-weight: 600;          /* Semi-bold text */
     font-size: 1rem;           /* Normal text size */
-    box-shadow: 0 5px 20px rgba(0, 98, 57, 0.3); /* Green shadow */
+    box-shadow: 0 5px 20px rgba(5, 5, 5, 0.3); /* Green shadow */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
-    border: 2px solid #006239; /* Primary green border */
+    border: 2px solid #0292d5; /* Primary green border */
 }
 
 .skill:hover {
     transform: translateY(-5px) scale(1.1); /* Moves up and scales */
-    box-shadow: 0 10px 30px rgba(0, 98, 57, 0.5); /* Stronger green glow on hover */
-    background-color: #242424; /* Secondary dark background on hover */
-    border-color: #006239;     /* Keep green border */
+    box-shadow: 0 10px 30px rgba(5, 5, 5, 0.5); /* Stronger green glow on hover */
+    background-color: #0468d3; /* Secondary dark background on hover */
+    border-color: #0150d7;     /* Keep green border */
 }
 
 /* ============================================== */
@@ -232,68 +232,68 @@ section h2::after {
 }
 
 .project-card {
-    background-color: #fafafa; /* Secondary foreground (light background) */
+    background-color: #026dd8; /* Secondary foreground (light background) */
     padding: 30px;             /* Spacing inside card */
     border-radius: 20px;       /* More rounded corners */
-    border: 3px solid #dde8e3; /* Primary foreground border */
+    border: 3px solid #0b0b0b; /* Primary foreground border */
     transition: all 0.3s ease; /* Smooth transition for hover */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    box-shadow: 0 8px 25px rgba(6, 6, 6, 0.973); /* Enhanced shadow */
 }
 
 .project-card:hover {
     transform: translateY(-15px) scale(1.02); /* Moves up and scales */
-    box-shadow: 0 20px 50px rgba(0, 98, 57, 0.3); /* Green glow */
-    border-color: #006239;     /* Primary green border on hover */
+    box-shadow: 0 20px 50px rgba(6, 6, 6, 0.962); /* Green glow */
+    border-color: #070707;     /* Primary green border on hover */
 }
 
 .project-card h3 {
-    color: #006239;            /* Primary green color */
+    color: #0a0a0a;            /* Primary green color */
     margin-bottom: 15px;       /* Space below title */
     font-size: 1.5rem;         /* Medium-large text */
     font-weight: 700;          /* Bold text */
 }
 
 .project-card p {
-    color: #242424;            /* Secondary dark text */
+    color: #070707;            /* Secondary dark text */
     margin-bottom: 20px;       /* Space below description */
     line-height: 1.6;          /* Space between lines */
 }
 
 .project-card a {
-    background-color: #006239; /* Primary green background */
-    color: #fafafa;            /* Secondary foreground (light text) */
+    background-color: #026ad3; /* Primary green background */
+    color: #080808;            /* Secondary foreground (light text) */
     text-decoration: none;     /* Removes underline */
     font-weight: 600;          /* Semi-bold */
     display: inline-block;     /* Makes it a block but inline */
     padding: 8px 20px;         /* Add padding */
     border-radius: 20px;       /* Rounded button */
     transition: all 0.3s ease; /* Smooth transition */
-    box-shadow: 0 3px 10px rgba(0, 98, 57, 0.3); /* Green shadow */
+    box-shadow: 0 3px 10px rgba(6, 6, 6, 0.956); /* Green shadow */
 }
 
 .project-card a:hover {
     transform: scale(1.1);     /* Scales on hover */
-    box-shadow: 0 5px 20px rgba(0, 98, 57, 0.5); /* Stronger green glow on hover */
-    background-color: #242424; /* Secondary dark background on hover */
+    box-shadow: 0 5px 20px rgba(6, 6, 6, 0.988); /* Stronger green glow on hover */
+    background-color: #0256d5; /* Secondary dark background on hover */
 }
 
 /* ============================================== */
 /* CONTACT SECTION                                */
 /* ============================================== */
 #contact {
-    background-color: #fafafa; /* Secondary foreground (light background) */
+    background-color: #040404; /* Secondary foreground (light background) */
     text-align: center;        /* Centers all text */
-    border-left: 5px solid #006239; /* Primary green accent border */
+    border-left: 5px solid #050505; /* Primary green accent border */
 }
 
 #contact p {
     font-size: 1.15rem;        /* Slightly larger text (same as about section) */
     margin: 10px 0;            /* Top and bottom spacing */
-    color: #242424;            /* Secondary dark text */
+    color: #fefafa;            /* Secondary dark text */
 }
 
 #contact a {
-    color: #006239;            /* Primary green text */
+    color: #f9fbfa;            /* Primary green text */
     text-decoration: none;     /* Removes underline */
     font-weight: 600;          /* Semi-bold */
     transition: all 0.3s ease; /* Smooth transition */
@@ -303,17 +303,17 @@ section h2::after {
 }
 
 #contact a:hover {
-    background-color: #006239; /* Primary green background */
+    background-color: #080808; /* Primary green background */
     color: #fafafa;            /* Secondary foreground (light text) on hover */
     transform: scale(1.05);    /* Slightly larger */
-    box-shadow: 0 5px 15px rgba(0, 98, 57, 0.4); /* Green glow */
+    box-shadow: 0 5px 15px rgba(1, 129, 215, 0.4); /* Green glow */
 }
 
 /* ============================================== */
 /* FOOTER - Bottom section with copyright        */
 /* ============================================== */
 footer {
-    background: linear-gradient(135deg, #242424 0%, #1a1a1a 100%); /* Secondary dark gradient */
+    background: linear-gradient(135deg, #090909 0%, #080808 100%); /* Secondary dark gradient */
     color: #fafafa;            /* Secondary foreground (light text) */
     text-align: center;        /* Centers text */
     padding: 30px 20px;        /* Top/bottom and left/right spacing */
